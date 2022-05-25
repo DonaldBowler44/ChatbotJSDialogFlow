@@ -1,0 +1,26 @@
+{
+  "name": "dialogflow",
+  "version": "1.0.0",
+  "description": "a dialogflow app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donald Bowler",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^4.7.0",
+    "actions-on-google": "^2.14.0",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.19.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
